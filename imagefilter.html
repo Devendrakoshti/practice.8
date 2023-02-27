@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        .x{
+            height: 400px;
+            border: white solid ;
+            display: flex;
+        }
+        .z
+        { height: 400px;
+            width: 50%;
+            border: white solid  ;
+            filter: blur(4px);
+            float: left;
+            /* display: flex; */
+            
+        }
+        .y
+        { 
+            height: 400px;
+            width: 50%;
+            border: white solid ;
+            float: left;
+
+        }
+        
+        .bright{
+            /* height:400px ;
+            width: 50%; */
+            border:  white solid;
+            filter: brightness(150%);
+        }
+        .contrast{
+            border: white solid;
+            filter: contrast(150%);
+        }
+        .bw
+        {
+            border: white solid;
+            filter: grayscale(100%);
+        }
+        .invert{
+            border: white solid;
+            filter: invert(105%);
+        }
+        .saturate{
+            border: white solid;
+            filter: saturate(300%);
+        }
+        .hue{
+            border: solid white;
+            filter: hue-rotate(-120deg);
+        }
+        .shadow{
+            box-shadow: 0 0 50px blue;
+        }
+        .a{
+            filter: drop-shadow(0 0 50px green);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="x">
+        <img src="123.jpg" class="y">
+        <img src="123.jpg" class="z">
+    </div>
+    <img src="123.jpg" height="400px"  width="825px" class="bright">
+    <img src="123.jpg" height="400px" width="825px" class="contrast">
+    <img src="123.jpg" height="400px" width="825px" class="bw">
+    <img src="123.jpg" height="400px" width="825px" class="invert">
+    <img src="123.jpg" height="400px" width="825px" class="saturate">
+    <img src="123.jpg" height="400px" width="825px" class="hue">
+    <img src="123.jpg" height="400px" width="825px" class="shadow">
+    <img src="123.jpg" height="400px" width="825px" class="a">
+</body>
+</html>
